@@ -1,0 +1,350 @@
+/* body, hedings and fons */
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 -5px;
+}
+
+.header, .team, .brands, .testimonials
+{
+    background: black;
+    color: white;
+    height: 100%;
+}
+
+.aboutus, .sevices, .ourworks
+{
+    background: white;
+    color: black;
+    height: 100%;
+}
+
+/* headings on black fons */
+.header .headings,
+.team .headings, 
+.brands .headings, 
+.testimonials .headings
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    border-bottom: 2px solid orangered;
+    padding-bottom: 10px;
+}
+.header .headings span,
+.team .headings span, 
+.brands .headings span, 
+.testimonials .headings span 
+{
+    color: orangered;
+    font-weight: 700;
+}
+/* headings on white fons */
+.aboutus .headings, 
+.services .headings, 
+.ourworks .headings,
+.contacts .headings
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: 2px solid orangered;
+    padding-bottom: 15px;
+}
+.aboutus .headings span, 
+.services .headings span, 
+.ourworks .headings span
+{
+    color: orangered;
+    font-weight: 700;
+}
+/* all headings and images */
+img
+{
+    max-width: 100%;
+}
+h2, h3, ul li a
+{
+    text-transform: uppercase;
+}
+
+/* header */
+/* head */
+.head
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.head ul 
+{
+    display: flex;
+    justify-content: right;
+}
+.head ul li 
+{
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+}
+.head ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.head ul li a:hover
+{
+    border-bottom: 2px solid orangered;
+    transition-property: border-bottom;
+    transition-duration: 1.5s;
+}
+/* shoulders */
+.shoulders
+{
+    color: white;
+    padding: 280px 0 350px 0;
+    display: flex;
+    align-items: center;
+}
+.shoulders h2
+{
+    width: 100%;
+    text-align: center;
+    font-size: 66px;
+    font-weight: lighter;
+    margin: 0 0 0 15px;
+}
+.shoulders h2 span
+{
+    color: orangered;
+    font-weight: bold;
+}
+.shoulders p
+{
+    width: 100%;
+    text-align: center;   
+    font-size: 32px;
+    margin: 0 0;
+}
+/* about us */
+.somewords
+{
+    margin: 70px 0;
+}
+.somewords .smwrds2
+{
+    padding-left: 20px;
+}
+.somewords img
+{
+    padding: 15px;
+    width: 100%;
+}
+.somewords h3
+{
+    margin: 15px 0;
+}
+.somewords p.psmwrds2
+{
+    margin: 40px 0 50px 0;
+    line-height: 25px;
+    font-size: 16px;
+}
+.somewords .p2smwrds2
+{
+    margin-top: 5px;
+}
+.somewords .p2smwrds2 span a
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* team */
+.team h3 
+{
+    padding-top: 50px;
+}
+.team .row p
+{
+    text-align: center;
+}
+.team .row
+{
+    padding-bottom: 120px;
+}
+.team .row p.nameteam
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.team .row p.postteam
+{
+    margin: 5px auto 10px auto;
+}
+.team .row p.description
+{
+    font-size: 14px;
+}
+.team img
+{
+    height: 150px;
+    width: 60%;
+    display: block;
+    margin: 30px auto;
+    border: 3px solid black;
+    border-radius: 300px;
+    opacity: 0.7;
+}
+.team img:hover
+{
+    border: 3px solid orangered;
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition-property: border, opacity, transform;
+    transition-duration: 2s;
+}
+.team .row p.nameteam:hover
+{
+    cursor: pointer;
+    color: orangered;
+    transform: scale(1.04);
+    transition-property: transform, color;
+    transition-duration: 2s;
+}
+/* services */
+.services .row img
+{
+    display: block;
+    margin: 0 auto;
+}
+.services div.container
+{
+    margin: 60px auto;
+}
+.services p
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services div p, .services div h4
+{
+    text-align: center;
+}
+.services div div p
+{
+    margin: 20px 10px;
+}
+/* brands */
+.brands div.container h3
+{
+    padding-top: 40px;
+}
+.brands .container .row div img
+{
+    margin: 60px 10px 120px 10px;
+}
+/* our works */
+.ourworks .container p
+{
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 60px auto;
+    width: 90%;
+    font-weight: 500;
+}
+.ourworks .container .row
+{
+    margin-bottom: 15px;
+}
+.ourworks .container .lastrow
+{
+    margin-bottom: 70px;
+}
+/* testimonials */
+.testimonials .container h3
+{
+    padding-top: 30px;
+}
+.testimonials .container p
+{
+    text-align: center;
+    font-size: 26px;
+}
+.testimonials .container p.testiinc
+{
+    padding-bottom: 80px;
+}
+/* contacts */
+.contacts .container
+{
+    padding-bottom: 10px;
+}
+.contacts .container div input[type="text"]
+{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid gray;
+    height: 60px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 40px;
+}
+.contacts .container .row div textarea
+{
+    width: 98%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    resize: none;
+}
+.contacts .container  p
+{
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.contacts .container div input[type="button"]
+{
+    border: none;
+    color: white;
+    background: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 35px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.contacts .container div input[type="button"]:hover
+{
+    border: 2px solid orangered;
+    color: orangered;
+    background: white;
+    transform: scale(1.01);
+    transition-property: color, background, border, transform;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+/* footer */
+footer
+{
+    background: rgb(34, 34, 34);
+    height: 80px;
+}
+footer a
+{
+    margin-right: 10px;
+}

@@ -1,0 +1,474 @@
+/* header */
+/* shoulders */
+/* about us */
+/* team */
+/* services */
+/* brands */
+/* our works */
+/* testimonials */
+/* contacts */
+/* footer */
+
+
+@media (max-width: 575.98px) 
+{
+    /* all headings */
+    .header .headings,
+    .team .headings, 
+    .brands .headings, 
+    .testimonials .headings,
+    .aboutus .headings, 
+    .services .headings, 
+    .ourworks .headings,
+    .contacts .headings
+    {
+        font-size: 20px;
+    }
+    /* header */
+    /* shoulders */
+    .shoulders
+    {
+        padding: 40px 0 60px 0;
+    }
+    .shoulders p
+    {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .shoulders h2
+    {
+        font-size: 30px;
+        margin: 0;
+    }
+    /* about us */
+    .somewords
+    {
+        margin: 25px 0;
+    }
+    .somewords h3
+    {
+        margin: 10px 0;
+    }
+    .somewords p.psmwrds2
+    {
+        margin: 15px 0 10px 0;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .somewords .p2smwrds2
+    {
+        font-size: 12px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .somewords .smwrds2
+    {
+        padding-left: 0;
+    }
+    /* team */
+    .team h3 
+    {
+        padding-top: 20px;
+    }
+    .team .row
+    {
+        padding-bottom: 40px;
+    }
+    .team .row p.description
+    {
+        font-size: 12px;
+        padding: 0 4px;
+    }
+    .team img
+    {
+        height: auto;
+        width: 45%;
+        margin: 20px auto;
+    }
+    /* services */
+    .services div.container
+    {
+        margin: 10px auto;
+    }
+    .services p
+    {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    /* brands */
+    .brands div.container h3
+    {
+        padding-top: 20px;
+    }
+    .brands .container .row div img
+    {
+        margin: 20px 10px 40px 10px;
+    }
+    /* our works */
+    .ourworks .container p
+    {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 10px auto;
+    }
+    .ourworks .container .lastrow
+    {
+        margin-bottom: 40px;
+    }
+    .ourworks .container .row
+    {
+        margin-bottom: 2px;
+    }
+    .ourworks .container div img 
+    {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2px;
+    }
+    /* testimonials */
+    .testimonials .container h3
+    {
+        padding-top: 25px;
+    }
+    .testimonials .container p
+    {
+        font-size: 20px;
+    }
+    .testimonials .container p.testiinc
+    {
+        padding-bottom: 50px;
+    }
+    /* contacts */
+    .contacts .container
+    {
+        padding-bottom: 0px;
+    }
+    .contacts .container  p
+    {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .contacts .container div input[type="text"]
+    {
+        margin-bottom: 20px;
+        height: 50px;
+    }
+    .contacts .container div input[type="button"]
+    {
+        margin-bottom: 30px; 
+    }
+    /* footer */
+    footer 
+    {
+        height: 60px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    /* all headings */
+    .header .headings,
+    .team .headings, 
+    .brands .headings, 
+    .testimonials .headings,
+    .aboutus .headings, 
+    .services .headings, 
+    .ourworks .headings,
+    .contacts .headings
+    {
+        font-size: 22px;
+    }
+    /* header */
+    .head ul li 
+    {
+        margin-right: 10px;
+    }
+    .head ul li a
+    {
+        font-size: 1em;
+    }
+    /* shoulders */
+    .shoulders
+    {
+        padding: 40px 0 60px 0;
+    }
+    .shoulders p
+    {
+        font-size: 20px;
+    }
+    .shoulders h2
+    {
+        font-size: 30px;
+        margin: 0;
+    }
+    /* about us */
+    .somewords
+    {
+        margin: 25px 0;
+    }
+    .somewords h3
+    {
+        margin: 10px 0;
+    }
+    .somewords p.psmwrds2
+    {
+        margin: 15px 0 10px 0;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .somewords .p2smwrds2
+    {
+        font-size: 12px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .somewords .smwrds2
+    {
+        padding-left: 0;
+    }
+    /* team */
+    .team h3 
+    {
+        padding-top: 20px;
+    }
+    .team .row
+    {
+        padding-bottom: 40px;
+    }
+    .team .row p.description
+    {
+        font-size: 12px;
+        padding: 0 4px;
+    }
+    .team img
+    {
+        height: 220px;
+        width: 45%;
+        margin: 20px auto;
+    }
+    /* services */
+    .services div.container
+    {
+        margin: 10px auto;
+    }
+    .services p
+    {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    /* brands */
+    .brands div.container h3
+    {
+        padding-top: 20px;
+    }
+    .brands .container .row div img
+    {
+        margin: 20px 10px 40px 10px;
+    }
+    /* our works */
+    .ourworks .container p
+    {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 10px auto;
+    }
+    .ourworks .container .lastrow
+    {
+        margin-bottom: 40px;
+    }
+    .ourworks .container .row
+    {
+        margin-bottom: 2px;
+    }
+    /* testimonials */
+    .testimonials .container h3
+    {
+        padding-top: 25px;
+    }
+    .testimonials .container p
+    {
+        font-size: 20px;
+    }
+    .testimonials .container p.testiinc
+    {
+        padding-bottom: 50px;
+    }
+    /* contacts */
+    .contacts .container
+    {
+        padding-bottom: 0px;
+    }
+    .contacts .container  p
+    {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .contacts .container div input[type="text"]
+    {
+        margin-bottom: 20px;
+        height: 40px;
+    }
+    .contacts .container div input[type="button"]
+    {
+        margin-bottom: 30px; 
+    }
+    .contacts .container .row div textarea
+    {
+        width: 95%;
+    }
+    /* footer */
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+    /* all headings */
+    .header .headings,
+    .team .headings, 
+    .brands .headings, 
+    .testimonials .headings,
+    .aboutus .headings, 
+    .services .headings, 
+    .ourworks .headings,
+    .contacts .headings
+    {
+        font-size: 26px;
+    }
+    /* header */
+    .head ul li 
+    {
+        margin-right: 10px;
+    }
+    .head ul li a
+    {
+        font-size: 1em;
+    }
+    /* shoulders */
+    .shoulders
+    {
+        padding: 90px 0 100px 0;
+    }
+    .shoulders h2
+    {
+        font-size: 50px;
+        margin: 0;
+    }
+    /* about us */
+    .somewords
+    {
+        margin: 25px 0;
+    }
+    .somewords h3
+    {
+        margin: 10px 0;
+    }
+    .somewords p.psmwrds2
+    {
+        margin: 15px 0 15px 0;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .somewords .p2smwrds2
+    {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    /* team */
+    .team h3 
+    {
+        padding-top: 30px;
+    }
+    .team .row
+    {
+        padding-bottom: 60px;
+    }
+    .team .row p.description
+    {
+        font-size: 14px;
+        padding: 0 4px;
+    }
+    .team img
+    {
+        height: 150px;
+        width: 45%;
+        margin: 20px auto;
+        opacity: 0.7;
+    }
+    /* services */
+    .services div.container
+    {
+        margin: 30px auto;
+    }
+    /* brands */
+    .brands div.container h3
+    {
+        padding-top: 30px;
+    }
+    .brands .container .row div img
+    {
+        margin: 20px 10px 40px 10px;
+    }
+    /* our works */
+    .ourworks .container p
+    {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 30px auto;
+    }
+    .ourworks .container .lastrow
+    {
+        margin-bottom: 40px;
+    }
+    .ourworks .container .row
+    {
+        margin-bottom: 10px;
+    }
+    /* testimonials */
+    .testimonials .container h3
+    {
+        padding-top: 25px;
+    }
+    .testimonials .container p
+    {
+        font-size: 20px;
+    }
+    .testimonials .container p.testiinc
+    {
+        padding-bottom: 50px;
+    }
+    /* contacts */
+    .contacts .container
+    {
+        padding-bottom: 0px;
+    }
+    .contacts .container  p
+    {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .contacts .container div input[type="text"]
+    {
+        margin-bottom: 20px;
+        height: 50px;
+    }
+    .contacts .container div input[type="button"]
+    {
+        margin-bottom: 30px; 
+    }
+    /* footer */
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    /* it's OK */
+}
+
+
+@media (min-width: 1200px) 
+{ 
+    /* it's OK */
+}
